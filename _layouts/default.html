@@ -10,8 +10,10 @@
           {% if site.logourl != null %}
             <a href="http://dmped.dc.gov"><img class="logo" src="{{ site.baseurl }}{{ site.logourl }}" alt="{{ site.logoalt }}"></a>
           {% endif %}
-          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          <h6 class="site-subtitle"> {{ site.subtitle }} </h6>
+          <div class="site-logo">
+            <a href="{{ site.baseurl }}/"><img class="innomaytion-logo" src='{{ site.baseurl }}/assets/img/logo-4.png'></a>
+            <h6 class="site-subtitle"> {{ site.subtitle }} </h6>
+          </div>
         </div>
       </header>
 

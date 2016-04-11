@@ -10,19 +10,19 @@ collections:
     permalink: /:path/
 
 # Title
-name: DC Smart City Initiative
-subtitle: 'Muriel Bowser, Mayor'
+name: innoMAYtion
+subtitle: 'We are inclusive. We are innovative. We are Washington, DC.'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Office of the Chief Technology Officer
-  url: http://octo.dc.gov
+  name: "Office of the Deputy Mayor for Planning & Economic Development"
+  url: http://dmped.dc.gov
 
 # When using this template with a project (repository) page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
-baseurl: '/smart-city'
+baseurl: '/innoMAYtion'
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl: '/assets/img/we-are-wdc.png'
@@ -31,30 +31,22 @@ logoalt: We Are Washington DC
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: About this Initiative
+- text: Introduction
   internal: true
-  url:
-- text: What is a Smart City Project?
+  url: ./
+- text: Events
   internal: true
-  url: what.html
-- text: Featured Projects
-  internal: true
-  url: featured.html
-- text: Share a Project or Idea
-  internal: false
-  url: http://goo.gl/forms/vEUyXBLhlQ
-- text: Partners
-  internal: true
-  url: partners.html
+  url: events.html
+
 
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: smart-city
+- name: innoMAYtion
   description:
-  url: https://github.com/DCgov/smart-city
+  url: https://github.com/DCgov/innoMAYtion
 
-google_analytics_ua: UA-2638726-1
+# google_analytics_ua: 
 
 # Style Variables
 brand_color: "#BF0000"

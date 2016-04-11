@@ -1,21 +1,30 @@
 ---
 layout: page
 permalink: /
-title: About this Initiative
+title: 
 ---
 
-**The Smart City Initiative aims to develop a complete picture, across all eight wards, of smart city-aligned projects, partner organizations, and opportunities**
+**Deputy Mayor for Planning & Economic Development //
+Muriel Bowser, Mayor**
+ 
+### What is innoMAYtion?
 
-The [Office of the Chief Technology Officer (OCTO)](http://octo.dc.gov/) is leading an interagency effort to explore how “smart city” technology can be used in the District. [Smart city technology](https://en.wikipedia.org/wiki/Smart_city) leverages intelligent city infrastructure, including connected devices, sensors, and data analytics, to improve quality of life for residents, enhance economic growth, and address city challenges.
+innoMAYtion is Mayor Bowser's pioneering month-long initative highlighting innovative programs which create jobs, engage residents, position the District as a hub of innovative activity, and open pathways to the middle class. Highlighting various sectors, including the arts, transportation, and technology, innoMAYtion will concentrate on how the city will respond to the needs of residents through the 'inclusive innovation' economy and create Pathways to the Middle Class.
 
-This is a collaborative effort reflecting partnerships between city agencies and other key District stakeholders including the federal government, universities, business improvement districts (BIDs), the tech community, and others interested in working together to make a smarter DC.
+### Goals
+(Sharif to consolidate/edit)
+<ul>
+	<li>Connect underserved communities to the innovation economy</li>
+	<li>Use innovation as a tool to improve the lives of DC residents</li>
+	<li>Improve government services and delivery through innovation and technology</li>
+	<li>Leverage the District's position as a hub for inclusive innovation and technology</li>
+	<li>Engage residents through innovation and technology to help solve District challenges</li>
+</ul>
 
-### We want to hear from you
+###innoMAYtion Ideation
 
-Are you or your organization interested in or currently working on smart city topics? Tell us about your projects or ideas by completing [our questionnaire](/questionnaire.html). We’ll add relevant projects to our project inventory, and use this knowledge to identify new opportunities for partnership and investment.
+We are looking to collaborate with residents, inventors, entrepreneurs, businesses, *and District agencies* that can help us grow the District's innovation economy. If you have an innovative idea or product that can help improve our city, we want to hear from you!
 
-This website and project inventory is a first step in a larger initiative that will evolve and expand over time. If you have ideas for what OCTO or the District government could be doing or want to contribute to these efforts, please get in touch with us at [smarterdc@dc.gov](mailto:smarterdc@dc.gov).
+Throughout the month, Mayor Bowser and [DMPED](https://dmped.dc.gov) will make announcements that center around innovation within key priorities of the Administration, including education, technology, small business, the creatie economy, and good government.
 
-### Related efforts
-
-The District is a leading participant in the National Institute of Standards and Technology and US Ignite [Global Cities Team Challenge](https://www.us-ignite.org/globalcityteams/actioncluster/), which has spurred smart city development in cities around the US and the world. We have also partnered with universities in the District of Columbia to form [MetroLab Network DC](http://metrolab.heinz.cmu.edu/), part of a nationwide effort sponsored by the White House Office of Science and Technology Policy to join research institutions and cities to help solve urban challenges.
+The goal is to connect underserved communities to the innovation economy, prepare our next generation for the 21st century, and use innovation as a tool to improve the lives of our District residents.

@@ -21,7 +21,7 @@ innoMAYtion is Mayor Bowser's pioneering month-long initative highlighting innov
 	<li>Engage residents through innovation and technology to help solve District challenges</li>
 </ul>
 
-###innoMAYtion Ideation
+### innoMAYtion Ideation
 
 We are looking to collaborate with residents, inventors, entrepreneurs, businesses, *and District agencies* that can help us grow the District's innovation economy. If you have an innovative idea or product that can help improve our city, we want to hear from you!
 

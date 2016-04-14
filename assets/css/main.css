@@ -35,191 +35,103 @@ Typography
 */
 
 body {
-    font-family: "Avenir Next", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 1.466666667;
+    background: url("{{ site.baseurl }}/assets/img/Digigirlz.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    max-height:100%;
+    overflow-y: auto;
 }
 
-h1,
-h3,
-h4,
-h5,
-
-strong {
-    font-family: "Avenir Next Demi", "Avenir Next", Arial, sans-serif;
-    font-weight: 600;
+header {
+    background: -webkit-linear-gradient(bottom, rgba(255,0,0,0), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(255,0,0,0), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(255,0,0,0), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(255,0,0,0), white); /* Standard syntax (must be last) */
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    padding-top: 10px;
+    overflow: hidden;
 }
 
-.site-title {
-    font-size: 1.625em;
-    font-family: "Avenir Next", Arial, sans-serif;
-    font-weight: normal;
-    color: #919395;
-    margin: 0;
-    line-height: 1.2941176470588236;
+.third {
+    width: 33%;
+    float: left;
+    vertical-align: middle;
+}
+
+.logo-inno {
     display: inline-block;
+    max-height: 200px;
+    padding-left: 20%;
+    float: left;
 }
 
-.site-subtitle {
-    display:inline-block;
-    font-size:1.00em;
-    font-family: "Avenir Next", Arial, sans-serif;
-    font-weight: normal;
-    color: #919395;
-    vertical-align: top;
+.dclogo {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    float: right;
+    padding-right: 15%;
+    padding-top: 20px;
+    overflow: hidden;
+    margin-left: 50px;
 }
 
-h2 {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.375em;
-    margin: 1.4em 0 0 0;
+.logo-wedc {
+    display: inline-block;
+    max-height: 150px;
 }
 
-h4 {
-    font-size: 1em;
-    text-transform: uppercase;
-    margin: 2em 0 0 0;
+.logo-dmped {
+    position:absolute;
+    width: 100px;
+    float: right;
+    padding-top: 10px;
+    vertical-align: bottom;
 }
 
-h3 {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.375em;
-}
+.midtext {
+    max-width: 600px;
+    max-height: 300px;
 
-.page-title {
-    margin-top: .273em; /* 6/22 */
-}
-
-table {
-    font-size: small;
-}
-
-th {
-}
-
-th, td {
-    text-align: left;
-    vertical-align: text-top;
-    padding: .5em .5em;
-    border-bottom: 1px solid #ddd;
-    min-width: 90px;
-}
-
-tbody tr:hover {
-    background: #fafafa;
-}
-
-.dmpedtable td, .dmpedtable th, .ahlist th, .ahlist td {
-    width: 475px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-    padding-left: 5px;
-}
-
-.ahtable td, .ahtable tr, .ahtable th {
-    width: 475px;
-    height: 40px;
-    border: 1px solid #fff;
-    text-align: center;
-}
-
-.dmpedtable td, .dmpedtable th, .ahtable td, .ahtable th {
-    font-size: small;
-}
-
-
-.ahtable thead, .ahtable tbody, .dmpedtable thead, .dmpedtable tbody, .ahlist thead, .ahlist tbody {
-    display: block;
-    width: 475px;
-    overflow-y: auto;    /* Trigger vertical scroll    */
-    overflow-x: hidden;  /* Hide the horizontal scroll */
-}
-
-.ahlist tbody {
-    height: 454px;
-}
-
-#main img {
-    max-width: 100%;
-}
-
-/* SVG Images
-==================================
-*/
-
-.axis text{
-    font-family: Arial;
-    font-size: 13px;
-    color: #333333;
-    text-anchor: end;
-    }
-
-.axis path{
-    fill:none;
-    stroke:#333333 ;
-    stroke-width: 1.5px;
-    shape-rendering: crispEdges
-    }
-
-.bar{
-    stroke: none;
-    fill: #012C3B;
-    }
-
-.textlabel{
-    font-family:  Arial;
-    font-size:10px;
-    color: #333333;
-    text-anchor: middle;
-    }
-
-/*
-Glossary
-==================================
-*/
-
-#glossary {
-    display: none;
-    background-color: white;
-    border-left: 4px solid black;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 20rem;
-    overflow-y: scroll;
-    padding: 2rem;
     position: fixed;
-    z-index: 500;
+    bottom: 80px;
+    left: 7%;
+    right: 0;
+
+    margin: auto;
 }
 
-#glossary ul {
-    padding-left: 0;
-    list-style-type: none;
-}
-
-#glossary li {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-#glossary li[hidden-term=true] {
-    display: none;
-}
-
-#glossary input {
+.transbox {
+    background-color: #fff;
+    border-style: solid;
+    opacity: 0.8;
+    height: 100%;
     width: 100%;
 }
 
-#glossary .glossary-term-name {
-    font-weight: 600;
+.transbox p {
+    color: #000000;
+    font-weight: bold;
 }
 
-#glossary .glossary-toggle {
-    cursor: pointer;
+.comingsoon {
+    font-size: 400%;
+    text-align: center;
+    color: #012C3B;
 }
+
+.introduction {
+    background-color: #fff;
+    padding: 5%;
+    color: #012C3B;
+}
+
 
 /*
 Lists
@@ -258,24 +170,24 @@ a,
 a:link,
 a:visited {
     color: #0072ce;
-    border-bottom: 1px dotted #0072ce;
+    border-bottom: none;
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 1px solid #7eb8dd;
+    border-bottom: none;
     color: #7eb8dd;
     text-decoration: none;
 }
 
 a:active {
-    border-bottom: 1px solid #002d72;
+    border-bottom: none;
     color: #002d72;
     text-decoration: none;
 }
 
 a:focus {
-    border-bottom: 1px solid #0072ce;
+    border-bottom: none;
     color: #0072ce;
     outline: thin dotted;
     text-decoration: none;
@@ -390,13 +302,6 @@ section:before {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-header {
-    width: 100%;
-    border-bottom: 4px solid {{ site.brand_color }};
-    background-color: #fff;
-    padding: 2em 0 1em 0;
 }
 
 .site-logo a {

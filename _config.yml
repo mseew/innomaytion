@@ -34,11 +34,7 @@ navigation:
 - text: Introduction
   internal: true
   url: ./
-- text: Events
-  internal: true
-  url: events.html
-
-
+  
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:

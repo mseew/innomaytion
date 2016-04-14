@@ -3,35 +3,19 @@
 
   {% include header.html %}
 
-  <body>
-    <div class="container">
-      <header role="banner">
-        <div class="wrap">
-          {% if site.logourl != null %}
-            <a href="http://dmped.dc.gov"><img class="logo" src="{{ site.baseurl }}{{ site.logourl }}" alt="{{ site.logoalt }}"></a>
-          {% endif %}
-          <div class="site-logo">
-            <a href="{{ site.baseurl }}/"><img class="innomaytion-logo" src='{{ site.baseurl }}/assets/img/logo-4.png'></a>
-            <h6 class="site-subtitle"> {{ site.subtitle }} </h6>
-          </div>
-        </div>
-      </header>
+<body>
+  <header role="banner">
+      <div class="third">
+        <img class="logo-inno" src="{{ site.baseurl }}/assets/img/logoinno.png">
+      </div>
+      <div class="dclogo">
+        <a href="http://dmped.dc.gov"><img class="logo-wedc" src="{{ site.baseurl }}/assets/img/we-are-wdc.png">
+        <img class="logo-dmped" src="{{ site.baseurl }}/assets/img/dmpedlogo.png"></a>
+      </div>
+  </header>
 
-      <div class="wrap content">
+  {{ content }}
 
-        {% include sidebar.html %}
+</body>
 
-        <section id="main" class="main-content" role="main">
-          {{ content }}
-        </section>
-
-      </div><!-- /.wrap content -->
-
-      {% include glossary.html %}
-
-      {% include footer.html %}
-
-    </div> <!-- /.container -->
-    </body>
-    {% include scripts.html %}
 </html>
